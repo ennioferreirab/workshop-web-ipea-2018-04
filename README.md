@@ -34,13 +34,67 @@ Workshop de Desenvolvimento Web, IPEA, Abril/2018
 - Resumo:
     - Tudo tem um porquê
         - SPA
-        - Riot.js
+        - Riot.js (Curso Udemy)
         - Webpack
+            - https://webpack.js.org/
+            - [Webpack 2 Basics - Academind](https://www.youtube.com/watch?v=GU-2T7k9NfI&list=PL55RiY5tL51rcCnrOrZixuOsZhAHHy6os)
+            - [Webpack 2 - Ihatetomatoes](https://www.youtube.com/watch?v=JdGnYNtuEtE&list=PLkEZWD8wbltnRp6nRR8kv97RbpcUdNawY)
         - Redux/redux-saga
+            - Wes Bos Curso Redux
+            - https://redux.js.org/
+            - https://redux-saga.js.org/
         - Babel
     - Entender tudo, linha a linha, saber o porquê
 
-## Início: configurar o ambiente
+
+## Por que o Riot.js?
+
+- Todos os principais recursos dos demais frameworks*
+    - **Componentes**!!!!!!!
+    - "Virtual DOM"
+    - Geração de HTML em função do state
+    - Lifecycle
+- Diferenciais
+    - Leve (MUITO)
+    - Sintaxe IGUAL a HTML normal
+    - Código FACIL de escrever e de ler
+    - Compatibilidade nativa com componentes externos (jQuery, etc...)
+
+## Rápida Rrevisão
+
+### - Riot.js
+
+- Client side compilation:
+    - riot+compiler.min.js
+        - transforma o `.tag` em uma função javascript `riot.tag2(...)`
+    - riot.min.js
+        - executa a função `riot.tag2(...)`
+        - o retorno dessa função -> carrega no DOM
+
+- Pre-compiled: Como nós iremos usar?
+    - Node.js irá compilar e gerar o arquivo `.js` com as funções `riot.tag2(...)`
+    - Webpack irá juntar esse `.js` com essas funções `riot.tag2(...)`, no `bundle.js`
+
+### - Transpile Code (Transpilar o código)
+
+- Babel
+- Typescript
+- SASS / LESS
+
+### - Webpack
+
+
+## Configurar o ambiente
+
+
+- `package.json`
+
+```
+npm init -y
+```
+
+- Configurar o Webpack
+
 
 
 
