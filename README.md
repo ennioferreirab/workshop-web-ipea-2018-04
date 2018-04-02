@@ -39,6 +39,7 @@ Workshop de Desenvolvimento Web, IPEA, Abril/2018
             - https://webpack.js.org/
             - [Webpack 2 Basics - Academind](https://www.youtube.com/watch?v=GU-2T7k9NfI&list=PL55RiY5tL51rcCnrOrZixuOsZhAHHy6os)
             - [Webpack 2 - Ihatetomatoes](https://www.youtube.com/watch?v=JdGnYNtuEtE&list=PLkEZWD8wbltnRp6nRR8kv97RbpcUdNawY)
+            - [React & Webpack 4 From Scratch - No CLI - Traversy Media] (https://www.youtube.com/watch?v=deyxI-6C2u4)
         - Redux/redux-saga
             - Wes Bos Curso Redux
             - https://redux.js.org/
