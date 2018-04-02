@@ -81,11 +81,22 @@ Workshop de Desenvolvimento Web, IPEA, Abril/2018
 - Typescript
 - SASS / LESS
 
+### - Comandos de Terminal
+
+- Flags vs `.config`
+
 ### - Webpack
+
+- O que faz?
+- Busca "em árvore" a partir de ponto de entrada `entry`
+- Saída de pacotes únicos para cada tipo de arquivo (`.js`, `.css`, imagens, etc...)
 
 
 ## Configurar o ambiente
 
+- nvm
+
+- vscode
 
 - `package.json`
 
@@ -95,6 +106,11 @@ npm init -y
 
 - Configurar o Webpack
 
+- `npx`
+    - `riot --config riot.config`
+    - `webpack`
+
+- Montar os scripts no npm `package.json` com a flag watch `-w`
 
 
 
